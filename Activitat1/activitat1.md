@@ -20,10 +20,11 @@ Per la instal·lació, seguim els passos següents:
 - Comprovem si s'ha instal·lat correctament amb `SHOW ENGINES;`
 ![image](https://user-images.githubusercontent.com/79662843/157508236-bb48c885-355d-4bf5-9a45-98c136c0807b.png)
 
-
-
 4. Importa la BD Sakila com a taules MyISAM. Fes els canvis necessaris per importar la BD Sakila perquè totes les taules siguin de tipus MyISAM. 
 Mira quins són els fitxers físics que ha creat, quan ocupen i quines són les seves extensions. Mostra'n una captura de pantalla i indica què conté cada fitxer.
 Un cop fet això torna a deixar el motor InnoDB per defecte.
+- Per poder importar la DB Sakila amb les taules MyISAM, modifiquem el `ENGINE` de cada taula. Repetim aquest procés amb totes les taules on el ENGINE sigui InnoDB.
+![image](https://user-images.githubusercontent.com/79662843/157509345-f66c4981-b6e4-44f0-90e2-c5cd8f19255a.png)
+
 5. A partir de MySQL apareixen els schemas de metadades i informació guardats amb InnoDB. Busca informació d'aquests schemas. Indica quin és l'objectiu de cadascun d'ells i posa'n un exemple d'ús.
 6. Posa un exemple que produeix un DEADLOCK i mostra-ho al professor.
