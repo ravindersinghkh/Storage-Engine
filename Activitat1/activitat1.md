@@ -35,24 +35,5 @@ Un cop fet això torna a deixar el motor InnoDB per defecte.
 
 5. A partir de MySQL apareixen els schemas de metadades i informació guardats amb InnoDB. Busca informació d'aquests schemas. Indica quin és l'objectiu de cadascun d'ells i posa'n un exemple d'ús.
 6. Posa un exemple que produeix un DEADLOCK i mostra-ho al professor.
-mysql> CREATE TABLE t (i INT) ENGINE = InnoDB;
-Query OK, 0 rows affected (1.07 sec)
+![image](https://user-images.githubusercontent.com/79662843/157514859-82f05c60-ea86-4ca0-930c-54dd6e6134f6.png)
 
-mysql> INSERT INTO t (i) VALUES(1);
-Query OK, 1 row affected (0.09 sec)
-
-mysql> START TRANSACTION;
-Query OK, 0 rows affected (0.00 sec)
-
-mysql> SELECT * FROM t WHERE i = 1 LOCK IN SHARE MODE;
-+------+
-| i    |
-+------+
-|    1 |
-+------+
-
-mysql> START TRANSACTION;
-Query OK, 0 rows affected (0.00 sec)
-mysql> DELETE FROM t WHERE i = 1;
-ERROR 1213 (40001): Deadlock found when trying to get lock;
-try restarting transaction
