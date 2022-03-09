@@ -9,10 +9,17 @@
 2. Com puc saber quin és el motor d’emmagatzematge per defecte. Mostra com canviar aquest paràmetre de tal manera que les noves taules que creem a la BD per defecte utilitzin el motor MyISAM?
 - Per saber el motor per defecte podem utilitzar la comanda anterior `SHOW ENGINES;` amb la qual ens indica el motor per defecte.
 ![image](https://user-images.githubusercontent.com/79662843/157504977-5f76646b-7d4b-40c9-ba52-bc581a287222.png)
-- Per canviar-ho, utilitzarem la comanda `SET default_storage_engine=MyISAM;`
+- Per canviar-ho, utilitzarem la comanda `SET default_storage_engine=MyISAM;` Aquesta comanda canviará per la sessió actual, si ho volem canviar de manera permanent, haurem de anar a configurar `/etc/my.cnf` i afegir la variable `default-storage-engine=MyISAM`.
 ![image](https://user-images.githubusercontent.com/79662843/157505230-7fb7af81-798f-4ffa-bef1-fa3923a76d97.png)
 
 3. Explica els passos per instal·lar i activar l'ENGINE MyRocks. MyRocks és un motor d'emmagatzematge per MySQL basat en RocksDB (SGBD incrustat de tipus clau-valor). Aquest tipus d’emmagatzematge està optimitzat per ser molt eficient en les escriptures amb lectures acceptables.
+Per la instal·lació, seguim els passos següents:
+- Instal·lem el paquet `sudo yum install percona-server-rocksdb`
+- Executem el script ps-admin un cop instal·lat el paquet `ps-admin --enable-rocksdb -u perepi -ppastanaga`
+  ![image](https://user-images.githubusercontent.com/79662843/157507885-ee9f5204-c3f9-4712-acba-c4c3147dea85.png)
+- Comprovem si s'ha instal·lat correctament amb `SHOW ENGINES;`
+![image](https://user-images.githubusercontent.com/79662843/157508236-bb48c885-355d-4bf5-9a45-98c136c0807b.png)
+
 
 
 4. Importa la BD Sakila com a taules MyISAM. Fes els canvis necessaris per importar la BD Sakila perquè totes les taules siguin de tipus MyISAM. 
