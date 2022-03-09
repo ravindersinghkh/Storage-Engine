@@ -27,5 +27,11 @@ Un cop fet això torna a deixar el motor InnoDB per defecte.
 
 ![image](https://user-images.githubusercontent.com/79662843/157509345-f66c4981-b6e4-44f0-90e2-c5cd8f19255a.png)
 
+![image](https://user-images.githubusercontent.com/79662843/157511743-0ad2be06-3dc0-4fb6-ae70-44265b4f163f.png)
+- Podem observar que ha creat *3* fitxers per cada taula. Les extensions que utilitza son: `.sdi` Directori de la base de dades de la taula(metadades), `.MYD` El fitxer de dades i `.MYI` el fitxer dels índexs
+![image](https://user-images.githubusercontent.com/79662843/157512297-ba069ae7-01ee-4e2e-9ac3-08dbfe7d2349.png)
+- Tornem a possar el motor InnoDB:
+![image](https://user-images.githubusercontent.com/79662843/157513359-3c1f207b-0297-4dd4-ba39-6633ba00e09d.png)
+
 5. A partir de MySQL apareixen els schemas de metadades i informació guardats amb InnoDB. Busca informació d'aquests schemas. Indica quin és l'objectiu de cadascun d'ells i posa'n un exemple d'ús.
 6. Posa un exemple que produeix un DEADLOCK i mostra-ho al professor.
