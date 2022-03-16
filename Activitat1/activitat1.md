@@ -34,7 +34,10 @@ Un cop fet això torna a deixar el motor InnoDB per defecte.
 ![image](https://user-images.githubusercontent.com/79662843/157513359-3c1f207b-0297-4dd4-ba39-6633ba00e09d.png)
 
 5. A partir de MySQL apareixen els schemas de metadades i informació guardats amb InnoDB. Busca informació d'aquests schemas. Indica quin és l'objectiu de cadascun d'ells i posa'n un exemple d'ús.
-`INFORMATION_SCHEMA` proporciona accés a les metadades de la base de dades, informació sobre el servidor MySQL, com ara el nom d'una base de dades o taula, el tipus de dades d'una columna o privilegis d'accés.
+- `INFORMATION_SCHEMA` proporciona accés a les metadades de la base de dades, informació sobre el servidor MySQL, com ara el nom d'una base de dades o taula, el tipus de dades d'una columna o privilegis d'accés.
+- `PERFORMANCE_SCHEMA` proporciona una manera d'inspeccionar l'execució interna del servidor en temps d'execució per supervisar el rendiment del nostre servidor
+- `MYSQL SCHEMA` és l'esquema del sistema. Conté taules que emmagatzemen la informació requerida pel servidor MySQL mentre s'executa. També conté taules de diccionari de dades que emmagatzemen metadades d'objectes de base de dades i taules del sistema utilitzades per a altres propòsits operatius. 
+
 6. Posa un exemple que produeix un DEADLOCK i mostra-ho al professor.
 ![image](https://user-images.githubusercontent.com/79662843/157514859-82f05c60-ea86-4ca0-930c-54dd6e6134f6.png)
 - Amb un altre usuari, intenem el següent:
