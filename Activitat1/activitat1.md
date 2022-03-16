@@ -42,4 +42,4 @@ Un cop fet això torna a deixar el motor InnoDB per defecte.
 ![image](https://user-images.githubusercontent.com/79662843/157514859-82f05c60-ea86-4ca0-930c-54dd6e6134f6.png)
 - Amb un altre usuari, intenem el següent:
 ![image](https://user-images.githubusercontent.com/79662843/157519868-c7d29fb8-237d-40bf-9a23-e44a454aac1c.png)
-- Com podem observar, ens dona un error ja que amb el primer usuari ja estem amb un lock a la taula i el segon usuari per eliminar-ho, necesita el permís que no pot tenir pel motiu esmentat anteriorment.
+- Com podem observar, ens dona un error ja que amb el primer usuari ja estem amb un lock a la taula i el segon usuari per eliminar-ho, necesita el permís que no pot tenir pel motiu esmentat anteriorment. És per mantenir la consistència de dades.
