@@ -38,10 +38,13 @@
          - sudo chmod 751 /discs-mysql/disk2
     </pre>
     > Canviem el datadir del Mysql a /discs-mysql/
-    1. Aturem servei i movem el directori actual al nou:
+    1. Aturem servei:
         ![image](https://user-images.githubusercontent.com/79662843/161113968-49198a07-2e48-45ba-8a3b-bd0e2d6af357.png)
-        
+    2. Movem el directori actual al nou
         ![image](https://user-images.githubusercontent.com/79662843/161114129-06dbe11e-968a-48ec-afc4-1845afdd10e6.png)
+    3. Configurem `my.cnf` , posem el nou path i aixequem el servei:
+        ![image](https://user-images.githubusercontent.com/79662843/161114665-e0ad5d14-c093-40ab-92c4-228dac861c33.png)
+
 
 
         
