@@ -46,9 +46,11 @@
 
     3. Configurem `my.cnf` , posem el nou path i aixequem el servei:
         ![image](https://user-images.githubusercontent.com/79662843/161114665-e0ad5d14-c093-40ab-92c4-228dac861c33.png)
+        
+        ![image](https://user-images.githubusercontent.com/79662843/161117133-e5bd92b6-3058-4fdf-8669-8043188e20f7.png)
 
-
-
+        
+        ![image](https://user-images.githubusercontent.com/79662843/161116907-54f6650a-6888-41a9-9fbf-9da7ed9e5d4b.png)
         
     > Editem el fitxer my.cnf amb la següent configuració:
     
