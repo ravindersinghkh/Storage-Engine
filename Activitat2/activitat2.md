@@ -26,7 +26,10 @@
     - /discs-mysql/disk1/primer fitxer de dades → simularà un disc dur
     - /discs-mysql/disk2/segon fitxer de dades → simularà un segon disc dur.
     <pre>
-     Creem els directoris:
+     Creem els directoris i els permisos respectius:
+         - sudo mkdir /discs-mysql
+         - sudo chown -R mysql:mysql /discs-mysql
+         - sudo chmod 750 /discs-mysql/
          - sudo mkdir /discs-mysql/disk1
          - sudo mkdir /discs-mysql/disk2
          - sudo chown -R mysql:mysql /discs-mysql/disk1
@@ -34,8 +37,14 @@
          - sudo chmod 751 /discs-mysql/disk1
          - sudo chmod 751 /discs-mysql/disk2
     </pre>
-     ![image](https://user-images.githubusercontent.com/79662843/161110509-543f13e2-3165-4bc9-ba31-e462ba2ddd98.png)
+    > Canviem el datadir del Mysql a /discs-mysql/
+    1. Aturem servei i movem el directori actual al nou:
+        ![image](https://user-images.githubusercontent.com/79662843/161113968-49198a07-2e48-45ba-8a3b-bd0e2d6af357.png)
+        
+        ![image](https://user-images.githubusercontent.com/79662843/161114129-06dbe11e-968a-48ec-afc4-1845afdd10e6.png)
 
+
+        
     > Editem el fitxer my.cnf amb la següent configuració:
     
     ![image](https://user-images.githubusercontent.com/79662843/158665807-9208b16f-469f-4560-b75d-18241e0e1d19.png)
