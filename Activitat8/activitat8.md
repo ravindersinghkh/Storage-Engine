@@ -34,7 +34,7 @@ SELECT * from test2;
 
  >Podem observar que utilitza _**KLZ4**_ per defecte
 
-2. Per canviar-ho, haurem de configurar el fitxer ``my.cnf`` i posar les següents línies
+2. Per canviar-ho, haurem de configurar el fitxer ``my.cnf`` i posar les següents línies i reiniciar el servei.
 ![image](https://user-images.githubusercontent.com/79662843/161089376-9911c023-0435-461f-84a5-cbad30f9a637.png)
 
 
