@@ -57,6 +57,7 @@
     ![image](https://user-images.githubusercontent.com/79662843/161117738-05c3e30b-b571-4423-84fd-3050e22152ec.png)
     
     > Comprovació: 
+
     ![image](https://user-images.githubusercontent.com/79662843/161118446-9a217b38-f149-4970-a949-a8c59db002d7.png)
 
 
