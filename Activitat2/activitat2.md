@@ -52,7 +52,7 @@
         
         ![image](https://user-images.githubusercontent.com/79662843/161116907-54f6650a-6888-41a9-9fbf-9da7ed9e5d4b.png)
         
-    > Editem el fitxer my.cnf amb la següent configuració:
+    > Per canviar els directoris del tablespace aturarem el servei mysql i eliminarem els fitxers ibdata1. Un cop eliminat aquests fitxers, configurarem el fitxer `my.cnf` de la següent manera:
     
     ![image](https://user-images.githubusercontent.com/79662843/158665807-9208b16f-469f-4560-b75d-18241e0e1d19.png)
 
