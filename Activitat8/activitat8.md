@@ -36,6 +36,8 @@ SELECT * from test2;
 
 2. Per canviar-ho, haurem de configurar el fitxer ``my.cnf`` i posar les següents línies i reiniciar el servei.
 ![image](https://user-images.githubusercontent.com/79662843/161089376-9911c023-0435-461f-84a5-cbad30f9a637.png)
+![image](https://user-images.githubusercontent.com/79662843/161106815-617c2f51-a724-4adf-9fd0-a76d623aae74.png)
+
 
 Les dades no es tornaran a comprimir immediatament. Tanmateix, tots els fitxers nous utilitzaran la nova configuració de compressió, de manera que a mesura que les dades s'insereixin/s'actualitzen, la família de columnes començarà a utilitzar la nova opció.
 
