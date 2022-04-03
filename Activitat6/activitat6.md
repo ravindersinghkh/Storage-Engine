@@ -35,7 +35,7 @@ Tingues en compte els permisos a nivell de BD i de SO així com temes de seguret
 - Creem o modifiquem les taules de la següent manera amb el engine federated:
 ![image](https://user-images.githubusercontent.com/79662843/161449955-850de11b-030d-4ef2-9619-d13a44aa5bb6.png)
 
-Inserim des del primer servidor i comprovem amb un select als dos servidors
+- Inserim des del primer servidor i comprovem amb un select als dos servidors
 
 ![image](https://user-images.githubusercontent.com/79662843/161449995-905e2f12-4256-4706-ac6f-7171adf7bbc3.png)
 
