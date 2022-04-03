@@ -1,4 +1,4 @@
-#### Activitat 8.Storage Engine MyRocks
+#### Activitat 8. Storage Engine MyRocks
 
 -	Documenta i posa exemple de com utilitzar ENGINE MyRocks. Crea una Base de dades amb 2 o 3 taules i inserta-hi contingut.
 -	Cal documentar els passos que has hagut de realitzar per preparar l'exemple: configuracions, instruccions DML, DDL, etc....
