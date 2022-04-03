@@ -9,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/79662843/161442793-6a220299-4e6b-475c-9464-0241ebab5b4a.png)
 
 -	Proposa un exemple a on es vegi l'ús del redolog
-1. Redo log garanteix la durabilitat de les transaccions i evita que les pàgines brutes s'escriguin al disc en el moment de la fallada. Aquest es generat després de l'inici d'una transacció però no s'escriu quan es confirma la transacció, sinó durant l'execució de la transacció. Aleshores, en cas de nosaltres iniciar una transacció per inserir dades en una taula i per algun error, la base de dades ens dóna un error mentre fem aquesta transacció, la taula tornaria al seu estat anterior de quan vam començar a fer la transacció.
+1. Redo log garanteix la durabilitat de les transaccions i evita que les pàgines brutes s'escriguin al disc en el moment de la fallada. Aquest es generat després de l'inici d'una transacció però no s'escriu quan es confirma la transacció, sinó durant l'execució de la transacció. Aleshores, en cas de nosaltres iniciar una transacció per inserir dades en una taula i per algun error, la base de dades ens dóna un error mentre fem aquesta transacció, les modificacions que no han acabat d'actualitzar en aquesta taula es reproduirien automàticament durant la inicialització de la base de dades.
 
 - Com podem mirar el número de pàgines modificades (dirty pages)? I el número total de pàgines?
 
