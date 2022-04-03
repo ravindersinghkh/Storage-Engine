@@ -1,4 +1,4 @@
-#### 4.INNODB part III. REALITZA ELS SEGÜENTS APARTATS
+#### Activitat 4. INNODB part III. REALITZA ELS SEGÜENTS APARTATS
 
 -	Crea un tablespace anomenat 'ts1' situat a /discs-mysql/disc1/ i col·loca les taules actor, address i category de la BD Sakila.
 -	Crea un altre tablespace anomenat 'ts2' situat a /discs-mysql/disc2/ i col·loca-hi la resta de taules.
