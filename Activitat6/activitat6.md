@@ -32,6 +32,7 @@ Tingues en compte els permisos a nivell de BD i de SO així com temes de seguret
 
 **1. Opció 1: CONNECTION**
 
+- Creem o modifiquem les taules de la següent manera amb el engine federated:
 ![image](https://user-images.githubusercontent.com/79662843/161449955-850de11b-030d-4ef2-9619-d13a44aa5bb6.png)
 
 Inserim des del primer servidor i comprovem amb un select als dos servidors
@@ -42,6 +43,14 @@ Inserim des del primer servidor i comprovem amb un select als dos servidors
 
 
 **2. Opció 2: CREATE SERVER**
+- Aquesta opció ens permet simplificar el fet de crear taules amb el engine federated.
+![image](https://user-images.githubusercontent.com/79662843/161450703-b6229d77-aa7f-46f3-b0a2-cfca694c628f.png)
+![image](https://user-images.githubusercontent.com/79662843/161450715-c8431e72-4538-4309-adc1-eb9ec3908441.png)
+- Un cop hem creat el servidor, modifiquem les taules o creem les taules de la següent manera:
+![image](https://user-images.githubusercontent.com/79662843/161450814-9017a75b-30a6-4607-9c85-b5ed888ad35b.png)
+
+- Inserim des del primer servidor i comprovem amb un select als dos servidors
+
 
 
 
