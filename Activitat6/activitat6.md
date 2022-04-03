@@ -41,9 +41,9 @@ Tingues en compte els permisos a nivell de BD i de SO així com temes de seguret
 
 
 **2. Opció 2: CREATE SERVER**
-- Aquesta opció ens permet simplificar el fet de crear taules amb el engine federated.
-![image](https://user-images.githubusercontent.com/79662843/161450703-b6229d77-aa7f-46f3-b0a2-cfca694c628f.png)
-![image](https://user-images.githubusercontent.com/79662843/161450715-c8431e72-4538-4309-adc1-eb9ec3908441.png)
+- Amb aquesta opció ens permet simplificar el fet de crear taules amb el engine federated.
+![image](https://user-images.githubusercontent.com/79662843/161451086-2a574149-6ec3-4fdf-8efb-2124eb7cc8e7.png)
+![image](https://user-images.githubusercontent.com/79662843/161451102-c0e9c55b-51e1-4770-8787-17ef66724963.png)
 - Un cop hem creat el servidor, modifiquem les taules o creem les taules de la següent manera:
 ![image](https://user-images.githubusercontent.com/79662843/161450814-9017a75b-30a6-4607-9c85-b5ed888ad35b.png)
 
