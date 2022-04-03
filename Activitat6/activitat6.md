@@ -1,4 +1,4 @@
-#### Implementar BD Distribuïdes
+#### Activitat 6. Implementar BD Distribuïdes
 Com s'ha vist a classe MySQL proporciona el motor d'emmagatzemament FEDERATED que té com a funció permetre l'accés remot a bases de dades MySQL en un servidor local sense utilitzar tècniques de replicació ni clustering.
 
 -	Prepara un Servidor Percona Server amb la BD de Sakila
