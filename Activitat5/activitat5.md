@@ -1,4 +1,4 @@
-#### REDOLOG. REALITZA ELS SEGÜENTS APARTATS
+#### Activitat 5. REDOLOG. REALITZA ELS SEGÜENTS APARTATS
 -	Com podem comprovar (Innodb Log Checkpointing):
 > Amb la comanda ``SHOW ENGINE INNODB STATUS ;`` 
 
