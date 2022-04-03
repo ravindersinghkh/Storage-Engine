@@ -5,7 +5,7 @@
 -	Comprova que pots realitzar operacions DML a les taules dels dos tablespaces.
 -	Quines comandes i configuracions has realitzat per fer els dos apartats anteriors?
 
-1. Creació ts1 amb les taules respectives:
+1. Creació **ts1** amb les taules respectives:
 
 ![image](https://user-images.githubusercontent.com/79662843/161439758-793d8c20-47d4-4ea2-8f36-e6f1f2561c22.png)
 
@@ -15,7 +15,7 @@
 ![image](https://user-images.githubusercontent.com/79662843/161439950-3f300e45-78aa-4e98-a74a-04157003b5cc.png)
 
 
-2. Creació ts2 amb les taules respectives:
+2. Creació **ts2** amb les taules respectives:
 
 ![image](https://user-images.githubusercontent.com/79662843/161440971-bc340216-cdc9-4f15-acdd-8a670afa58e2.png)
 
@@ -26,11 +26,11 @@
 
 
 3. Finalment, comprovem les operacions DML:
-  - ts1:
+  - **ts1**:
 
   ![image](https://user-images.githubusercontent.com/79662843/161441386-3616472d-0b1e-4628-8df1-8b13842f210c.png)
 
-  - ts2:
+  - **ts2**:
 
   ![image](https://user-images.githubusercontent.com/79662843/161441464-2ed75042-e312-4ab6-8a76-d301dd0c0ac2.png)
 
