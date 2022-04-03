@@ -48,7 +48,5 @@ Tingues en compte els permisos a nivell de BD i de SO així com temes de seguret
 ![image](https://user-images.githubusercontent.com/79662843/161450814-9017a75b-30a6-4607-9c85-b5ed888ad35b.png)
 
 - Inserim des del primer servidor i comprovem amb un select als dos servidors
-
-
-
-
+![image](https://user-images.githubusercontent.com/79662843/161451122-14f93899-6086-4487-9f2c-fd169ca150ad.png)
+![image](https://user-images.githubusercontent.com/79662843/161451124-d0ba9b01-29a8-4484-8868-874c6e052b5f.png)
